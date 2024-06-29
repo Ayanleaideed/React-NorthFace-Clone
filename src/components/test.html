@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Card</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        margin: 0;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80vh;
+      }
+
+
+      .card-container {
+
+        background-color: #fff;
+        box-shadow: 4px 4px 7px 8px hsla(0, 0%, 0%, 0.096);
+        border-radius: 8px;
+        overflow: hidden;
+        width: 300px;
+        padding: 20px;
+      }
+
+      .card-container img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px 8px 0 0;
+        /* border: hsla(0, 100%, 50%, 0.233) solid 5px; */
+      }
+
+      .title {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 10px;
+        font-size: 18px;
+        font-weight: bold;
+      }
+
+      .desc {
+        text-align: center;
+
+        margin-top: 8px;
+        color: #555;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="card-container">
+      <img src="https://via.placeholder.com/300" alt="Product Image">
+      <div class="title">
+        <p>Title: </p>
+        <p>Price: $150</p>
+      </div>
+      <div class="desc">
+        <p>Description Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida ultrices mauris, vel pulvinar
+          ipsum.</p>
+      </div>
+    </div>
+  </body>
+
+</html>

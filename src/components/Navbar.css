@@ -1,0 +1,130 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #333;
+  color: #fff;
+  border-bottom: 4px solid hsla(268, 100%, 67%, 0.808);
+}
+
+.navbar-brand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-brand img {
+  width: 50px;
+  height: auto;
+  margin-right: 10px;
+  object-fit: contain;
+}
+
+.navbar-categories {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.navbar-categories a {
+  color: #fff;
+  text-decoration: none;
+  font-size: large;
+}
+
+.mid {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  align-items: center;
+}
+
+.cart {
+  position: relative;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.cart-icon {
+  width: 24px;
+  height: 24px;
+  color: #fff;
+}
+
+.cart-count {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.75rem;
+}
+
+.cart-dropdown {
+  position: absolute;
+  top: 70px;
+  right: 15px;
+  background-color: hsla(0, 0%, 100%, 0.925);
+  border: 1px solid #ccc;
+  color: hsla(0, 0%, 0%, 0.651);
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  z-index: 1;
+  min-width: 500px;
+  height: auto;
+}
+
+.cart-dropdown h2 {
+  margin-top: 0;
+}
+
+.cart-dropdown ul {
+  list-style: none;
+  padding: 0;
+  color: hsla(0, 0%, 0%, 0.651);
+}
+
+.cart-dropdown ul li {
+  margin-bottom: 5px;
+}
+
+a {
+  text-decoration: none;
+  font-size: large;
+}
+
+.btn-removeItem {
+  padding: 8px 10px;
+  margin-left: 30px;
+}
+
+.main-in {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fav {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+  font-size: large;
+}
+
+.action-btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 17rem;
+}
+.action-btns :nth-child(2) {
+  background-color: rgb(0, 153, 255);
+}
